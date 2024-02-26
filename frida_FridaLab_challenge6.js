@@ -1,4 +1,4 @@
-// 해결방법 1
+// Solution 1
 // Java.perform(function(){
 //   console.log("[+] Frida Start ...");
 //   let Main_Act = Java.choose("uk.rossmarks.fridalab.MainActivity",{
@@ -12,7 +12,7 @@
 // })
 
 
-// 해결방법 2
+// Solution 2
 Java.perform( console.warn("[+] Frida Start ..."))
 
 setTimeout(function(){
